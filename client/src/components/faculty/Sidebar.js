@@ -5,7 +5,7 @@ import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 import EngineeringIcon from "@mui/icons-material/Engineering";
 import AddIcon from "@mui/icons-material/Add";
 import { useDispatch } from "react-redux";
-import decode from "jwt-decode";
+import {jwtDecode} from "jwt-decode";
 const isNotActiveStyle =
   "flex items-center px-5 gap-3 text-gray-500 hover:text-black transition-all duration-200 ease-in-out capitalize hover:bg-gray-200 py-2 my-1";
 const isActiveStyle =
@@ -24,7 +24,7 @@ const Sidebar = () => {
     const token = user?.token;
 
     if (token) {
-      const decodedToken = decode(token);
+      const decodedToken = jwtDecode(token);
       if (decodedToken.exp * 1000 < new Date().getTime()) logout();
     }
 
