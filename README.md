@@ -35,7 +35,7 @@
 1. Mobile Responsiveness
 2. Sections other than academics
 3. More freedom to admin while adding new students,admins,faculties or subjects
-
+4. Faculty and Student login and dashboard are added but due to a error login for student and faculty are having a problem.
 ## Preview
 
 Admin login page
