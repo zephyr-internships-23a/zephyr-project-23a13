@@ -40,3 +40,9 @@
 
 Admin login page
 ![Screenshot 2024-06-17 190831](https://github.com/zephyr-internships-23a/zephyr-project-23a13/assets/144669086/0a92a221-5fa4-4af3-92ce-eead20c18207)
+
+
+Admin Dashboard
+
+
+![Screenshot 2024-06-17 191642](https://github.com/zephyr-internships-23a/zephyr-project-23a13/assets/144669086/c1850d60-e53a-43db-ac83-b099ee1f4d1b)
